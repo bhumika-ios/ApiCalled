@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC35521F2A304B21005DAA4D /* ApiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC35521E2A304B21005DAA4D /* ApiDetailView.swift */; };
+		AC3552212A3055F6005DAA4D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3552202A3055F6005DAA4D /* HomeView.swift */; };
+		AC3552232A306085005DAA4D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3552222A306085005DAA4D /* FavoriteButton.swift */; };
 		ACC958CD2A2F294B00DB309A /* ApiCalledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958CC2A2F294B00DB309A /* ApiCalledApp.swift */; };
 		ACC958CF2A2F294B00DB309A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958CE2A2F294B00DB309A /* ContentView.swift */; };
 		ACC958D12A2F294C00DB309A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC958D02A2F294C00DB309A /* Assets.xcassets */; };
 		ACC958D42A2F294C00DB309A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC958D32A2F294C00DB309A /* Preview Assets.xcassets */; };
+		ACC958DB2A2F2B8E00DB309A /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958DA2A2F2B8E00DB309A /* APIModel.swift */; };
+		ACC958DF2A2F2D5400DB309A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC958DE2A2F2D5400DB309A /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC35521E2A304B21005DAA4D /* ApiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDetailView.swift; sourceTree = "<group>"; };
+		AC3552202A3055F6005DAA4D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC3552222A306085005DAA4D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		ACC958C92A2F294B00DB309A /* ApiCalled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiCalled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC958CC2A2F294B00DB309A /* ApiCalledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCalledApp.swift; sourceTree = "<group>"; };
 		ACC958CE2A2F294B00DB309A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACC958D02A2F294C00DB309A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC958D32A2F294C00DB309A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACC958DA2A2F2B8E00DB309A /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		ACC958DE2A2F2D5400DB309A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,15 @@
 		ACC958CB2A2F294B00DB309A /* ApiCalled */ = {
 			isa = PBXGroup;
 			children = (
+				ACC958DE2A2F2D5400DB309A /* ViewModel.swift */,
+				ACC958DA2A2F2B8E00DB309A /* APIModel.swift */,
 				ACC958CC2A2F294B00DB309A /* ApiCalledApp.swift */,
 				ACC958CE2A2F294B00DB309A /* ContentView.swift */,
 				ACC958D02A2F294C00DB309A /* Assets.xcassets */,
 				ACC958D22A2F294C00DB309A /* Preview Content */,
+				AC35521E2A304B21005DAA4D /* ApiDetailView.swift */,
+				AC3552202A3055F6005DAA4D /* HomeView.swift */,
+				AC3552222A306085005DAA4D /* FavoriteButton.swift */,
 			);
 			path = ApiCalled;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC958CF2A2F294B00DB309A /* ContentView.swift in Sources */,
+				AC35521F2A304B21005DAA4D /* ApiDetailView.swift in Sources */,
+				ACC958DB2A2F2B8E00DB309A /* APIModel.swift in Sources */,
+				AC3552212A3055F6005DAA4D /* HomeView.swift in Sources */,
+				AC3552232A306085005DAA4D /* FavoriteButton.swift in Sources */,
+				ACC958DF2A2F2D5400DB309A /* ViewModel.swift in Sources */,
 				ACC958CD2A2F294B00DB309A /* ApiCalledApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
